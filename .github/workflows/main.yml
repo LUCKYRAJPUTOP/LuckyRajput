@@ -8,14 +8,14 @@ jobs:
       - name: Find and Replace
         uses: jacobtomlinson/gha-find-replace@master
         with:
-          find: "kraken_the_badass"
-          replace: "SupRemE_AnanD"
+          find: "SupRemE_AnanD"
+          replace: "LuckY_RajpuT"
       - name: Pull All Updates
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: 'Owner Updated'
           commit_options: '--no-verify'
           repository: .
-          commit_user_name: HellBoy-OP
-          commit_user_email: ghosthellboy4@gmail.com
-          commit_author: HellBoy-OP <ghosthellboy4@gmail.com>
+          commit_user_name: LuckyRajput-OP
+          commit_user_email: anshulrajputbij@gmail.com
+          commit_author: LuckyRajput-OP <anshulrajputbij@gmail.com>
